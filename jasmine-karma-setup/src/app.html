@@ -1,0 +1,6 @@
+<template>
+  <require from="./custom-elem" content="text/javascript"></require>
+  <custom-elem stuff.bind="model"></custom-elem>
+  <br />
+  <compose view-model="./compose-elem" model.bind="model"></compose>
+</template>
